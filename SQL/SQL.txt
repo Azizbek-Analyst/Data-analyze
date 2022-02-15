@@ -1,10 +1,10 @@
 SUBSTRING(email, POSITION('@' in email) +1)
 
-SELECT ROUND(AVG(salary))
+SELECT ROUND(AVG(salary),2)
 FROM dupe
 WHERE salary NOT IN (
 (SELECT MAX(SALARY) FROM dupe),
-(SELECT MIX(SALART) FROM DUPE))
+(SELECT MIN(SALARY) FROM DUPE))
 
 SELECT first_name, salary
 FROM employees e1

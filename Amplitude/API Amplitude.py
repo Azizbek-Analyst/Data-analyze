@@ -12,8 +12,8 @@ a = time.time()
 startdate = '20210601'
 enddate = '20210630'
 
-api_key = 'fc7929039625e70c5cd39e6aea190c87'
-secret_key = '7951cda499cd85fc541a822d8c16eedc'
+api_key = 'KEY'
+secret_key = 'KEY'
 # Отправление запроса в Amplitude
 response = requests.get('https://amplitude.com/api/2/export?&e=\{"event_type":"verified_revenue"\}&start='+startdate+'T0&end='+enddate+'T0', auth = (api_key, secret_key))
 print('1. Запрос отправлен')

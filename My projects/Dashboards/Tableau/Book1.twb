@@ -1,0 +1,512 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0213.1102                               -->
+<workbook original-version='18.1' source-build='2021.4.4 (20214.22.0213.1102)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='all'>
+      <format attr='color' value='#1b1b1b' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource caption='CTR _banners' inline='true' name='federated.0xf6twd08cx4r112y8ysg08rzjj7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='CTR _banners' name='textscan.021lrnw0cvl8kh0zndc1c10cduzd'>
+            <connection class='textscan' directory='C:/Users/user/Downloads' filename='CTR _banners.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.021lrnw0cvl8kh0zndc1c10cduzd' name='CTR _banners.csv' table='[CTR _banners#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ru_RU' separator='_'>
+            <column datatype='string' name='ab' ordinal='0' />
+            <column datatype='string' name='tests,main' ordinal='1' />
+            <column datatype='string' name='top,closable,main' ordinal='2' />
+            <column datatype='string' name='bottom,main' ordinal='3' />
+            <column datatype='string' name='top' ordinal='4' />
+            <column datatype='string' name='c,closable' ordinal='5' />
+            <column datatype='string' name='c,main' ordinal='6' />
+            <column datatype='string' name='bottom' ordinal='7' />
+            <column datatype='string' name='c' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.021lrnw0cvl8kh0zndc1c10cduzd' name='CTR _banners.csv' table='[CTR _banners#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ru_RU' separator='_'>
+            <column datatype='string' name='ab' ordinal='0' />
+            <column datatype='string' name='tests,main' ordinal='1' />
+            <column datatype='string' name='top,closable,main' ordinal='2' />
+            <column datatype='string' name='bottom,main' ordinal='3' />
+            <column datatype='string' name='top' ordinal='4' />
+            <column datatype='string' name='c,closable' ordinal='5' />
+            <column datatype='string' name='c,main' ordinal='6' />
+            <column datatype='string' name='bottom' ordinal='7' />
+            <column datatype='string' name='c' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CTR _banners.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ru&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;руб.&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;_&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ru_RU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ab</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ab]</local-name>
+            <parent-name>[CTR _banners.csv]</parent-name>
+            <remote-alias>ab</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CTR _banners.csv_66FE14CE23B24101B942C7A3D9E98FC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tests,main</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tests,main]</local-name>
+            <parent-name>[CTR _banners.csv]</parent-name>
+            <remote-alias>tests,main</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CTR _banners.csv_66FE14CE23B24101B942C7A3D9E98FC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>top,closable,main</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[top,closable,main]</local-name>
+            <parent-name>[CTR _banners.csv]</parent-name>
+            <remote-alias>top,closable,main</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CTR _banners.csv_66FE14CE23B24101B942C7A3D9E98FC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bottom,main</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[bottom,main]</local-name>
+            <parent-name>[CTR _banners.csv]</parent-name>
+            <remote-alias>bottom,main</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CTR _banners.csv_66FE14CE23B24101B942C7A3D9E98FC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>top</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[top]</local-name>
+            <parent-name>[CTR _banners.csv]</parent-name>
+            <remote-alias>top</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CTR _banners.csv_66FE14CE23B24101B942C7A3D9E98FC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>c,closable</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[c,closable]</local-name>
+            <parent-name>[CTR _banners.csv]</parent-name>
+            <remote-alias>c,closable</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CTR _banners.csv_66FE14CE23B24101B942C7A3D9E98FC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>c,main</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[c,main]</local-name>
+            <parent-name>[CTR _banners.csv]</parent-name>
+            <remote-alias>c,main</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CTR _banners.csv_66FE14CE23B24101B942C7A3D9E98FC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bottom</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[bottom]</local-name>
+            <parent-name>[CTR _banners.csv]</parent-name>
+            <remote-alias>bottom</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CTR _banners.csv_66FE14CE23B24101B942C7A3D9E98FC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[c]</local-name>
+            <parent-name>[CTR _banners.csv]</parent-name>
+            <remote-alias>c</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CTR _banners.csv_66FE14CE23B24101B942C7A3D9E98FC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='CTR _banners.csv' datatype='table' name='[__tableau_internal_object_id__].[CTR _banners.csv_66FE14CE23B24101B942C7A3D9E98FC0]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Russia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='CTR _banners.csv' id='CTR _banners.csv_66FE14CE23B24101B942C7A3D9E98FC0'>
+            <properties context=''>
+              <relation connection='textscan.021lrnw0cvl8kh0zndc1c10cduzd' name='CTR _banners.csv' table='[CTR _banners#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ru_RU' separator='_'>
+                  <column datatype='string' name='ab' ordinal='0' />
+                  <column datatype='string' name='tests,main' ordinal='1' />
+                  <column datatype='string' name='top,closable,main' ordinal='2' />
+                  <column datatype='string' name='bottom,main' ordinal='3' />
+                  <column datatype='string' name='top' ordinal='4' />
+                  <column datatype='string' name='c,closable' ordinal='5' />
+                  <column datatype='string' name='c,main' ordinal='6' />
+                  <column datatype='string' name='bottom' ordinal='7' />
+                  <column datatype='string' name='c' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='bar_chart_data' inline='true' name='federated.1f3z3s81alj3481e81w9z1ldfsaa' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='bar_chart_data' name='textscan.0w4fv0r0isla5r1743qyf11vddyl'>
+            <connection class='textscan' directory='C:/Users/user/Downloads' filename='bar_chart_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0w4fv0r0isla5r1743qyf11vddyl' name='bar_chart_data.csv' table='[bar_chart_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ru_RU'>
+            <column datatype='string' name='Brand' ordinal='0' />
+            <column datatype='integer' name='Cars Listings' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0w4fv0r0isla5r1743qyf11vddyl' name='bar_chart_data.csv' table='[bar_chart_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ru_RU'>
+            <column datatype='string' name='Brand' ordinal='0' />
+            <column datatype='integer' name='Cars Listings' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[bar_chart_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ru&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;руб.&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ru_RU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brand</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Brand]</local-name>
+            <parent-name>[bar_chart_data.csv]</parent-name>
+            <remote-alias>Brand</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bar_chart_data.csv_DB12D91D564B4E5686D2BF95DC9BABD9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cars Listings</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cars Listings]</local-name>
+            <parent-name>[bar_chart_data.csv]</parent-name>
+            <remote-alias>Cars Listings</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bar_chart_data.csv_DB12D91D564B4E5686D2BF95DC9BABD9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='bar_chart_data.csv' datatype='table' name='[__tableau_internal_object_id__].[bar_chart_data.csv_DB12D91D564B4E5686D2BF95DC9BABD9]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Russia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='bar_chart_data.csv' id='bar_chart_data.csv_DB12D91D564B4E5686D2BF95DC9BABD9'>
+            <properties context=''>
+              <relation connection='textscan.0w4fv0r0isla5r1743qyf11vddyl' name='bar_chart_data.csv' table='[bar_chart_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ru_RU'>
+                  <column datatype='string' name='Brand' ordinal='0' />
+                  <column datatype='integer' name='Cars Listings' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Cars listings&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bar_chart_data' name='federated.1f3z3s81alj3481e81w9z1ldfsaa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1f3z3s81alj3481e81w9z1ldfsaa'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Cars Listings]' role='measure' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Cars Listings]' derivation='Sum' name='[sum:Cars Listings:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.1f3z3s81alj3481e81w9z1ldfsaa].[sum:Cars Listings:qk]' value='91' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1f3z3s81alj3481e81w9z1ldfsaa].[none:Brand:nk]' value='187' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1f3z3s81alj3481e81w9z1ldfsaa].[sum:Cars Listings:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#3c5f84' />
+                <format attr='size' value='1.6811602115631104' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1f3z3s81alj3481e81w9z1ldfsaa].[sum:Cars Listings:qk]</rows>
+        <cols>[federated.1f3z3s81alj3481e81w9z1ldfsaa].[none:Brand:nk]</cols>
+      </table>
+      <simple-id uuid='{89FC0BB0-3F34-4881-80B4-30D726C76586}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1f3z3s81alj3481e81w9z1ldfsaa].[none:Brand:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2D929FB3-C5D1-47F7-93D6-C6BB657793A0}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

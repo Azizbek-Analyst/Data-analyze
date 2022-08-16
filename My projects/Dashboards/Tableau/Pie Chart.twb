@@ -1,0 +1,503 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0213.1102                               -->
+<workbook original-version='18.1' source-build='2021.4.4 (20214.22.0213.1102)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='all'>
+      <format attr='font-family' value='Arial' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource caption='pie_chart_data' inline='true' name='federated.18ikhz61v8sl8a1fgqawf06umhuc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='pie_chart_data' name='textscan.0gyegb215zs4vh1915uot0afh2j8'>
+            <connection class='textscan' directory='C:/Users/user/Downloads' filename='pie_chart_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0gyegb215zs4vh1915uot0afh2j8' name='pie_chart_data.csv' table='[pie_chart_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ru_RU' separator=' '>
+            <column datatype='string' name='Engine' ordinal='0' />
+            <column datatype='string' name='Fuel' ordinal='1' />
+            <column datatype='string' name='Type,Number' ordinal='2' />
+            <column datatype='string' name='of' ordinal='3' />
+            <column datatype='string' name='Cars' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0gyegb215zs4vh1915uot0afh2j8' name='pie_chart_data.csv' table='[pie_chart_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ru_RU' separator=' '>
+            <column datatype='string' name='Engine' ordinal='0' />
+            <column datatype='string' name='Fuel' ordinal='1' />
+            <column datatype='string' name='Type,Number' ordinal='2' />
+            <column datatype='string' name='of' ordinal='3' />
+            <column datatype='string' name='Cars' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[pie_chart_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ru&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;руб.&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot; &quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ru_RU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Engine</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Engine]</local-name>
+            <parent-name>[pie_chart_data.csv]</parent-name>
+            <remote-alias>Engine</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pie_chart_data.csv_310B530E97E84689899D9D0E76BC5CBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fuel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Fuel]</local-name>
+            <parent-name>[pie_chart_data.csv]</parent-name>
+            <remote-alias>Fuel</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pie_chart_data.csv_310B530E97E84689899D9D0E76BC5CBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type,Number</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type,Number]</local-name>
+            <parent-name>[pie_chart_data.csv]</parent-name>
+            <remote-alias>Type,Number</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pie_chart_data.csv_310B530E97E84689899D9D0E76BC5CBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>of</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[of]</local-name>
+            <parent-name>[pie_chart_data.csv]</parent-name>
+            <remote-alias>of</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pie_chart_data.csv_310B530E97E84689899D9D0E76BC5CBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cars</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Cars]</local-name>
+            <parent-name>[pie_chart_data.csv]</parent-name>
+            <remote-alias>Cars</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pie_chart_data.csv_310B530E97E84689899D9D0E76BC5CBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='pie_chart_data.csv' datatype='table' name='[__tableau_internal_object_id__].[pie_chart_data.csv_310B530E97E84689899D9D0E76BC5CBA]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Russia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='pie_chart_data.csv' id='pie_chart_data.csv_310B530E97E84689899D9D0E76BC5CBA'>
+            <properties context=''>
+              <relation connection='textscan.0gyegb215zs4vh1915uot0afh2j8' name='pie_chart_data.csv' table='[pie_chart_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ru_RU' separator=' '>
+                  <column datatype='string' name='Engine' ordinal='0' />
+                  <column datatype='string' name='Fuel' ordinal='1' />
+                  <column datatype='string' name='Type,Number' ordinal='2' />
+                  <column datatype='string' name='of' ordinal='3' />
+                  <column datatype='string' name='Cars' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='pie_chart_data (2)' inline='true' name='federated.0oppuas11wn52b158bpj71jhumkx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='pie_chart_data' name='textscan.0j8ctsn0tfpn7115oz32v11hmzkr'>
+            <connection class='textscan' directory='C:/Users/user/Downloads' filename='pie_chart_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0j8ctsn0tfpn7115oz32v11hmzkr' name='pie_chart_data.csv' table='[pie_chart_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ru_RU' separator=','>
+            <column datatype='string' name='Engine Fuel Type' ordinal='0' />
+            <column datatype='integer' name='Number of Cars' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0j8ctsn0tfpn7115oz32v11hmzkr' name='pie_chart_data.csv' table='[pie_chart_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ru_RU' separator=','>
+            <column datatype='string' name='Engine Fuel Type' ordinal='0' />
+            <column datatype='integer' name='Number of Cars' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[pie_chart_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ru&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;руб.&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ru_RU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Engine Fuel Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Engine Fuel Type]</local-name>
+            <parent-name>[pie_chart_data.csv]</parent-name>
+            <remote-alias>Engine Fuel Type</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pie_chart_data.csv_342B5C50F11E4294AF39E7AD14965323]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Cars</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Cars]</local-name>
+            <parent-name>[pie_chart_data.csv]</parent-name>
+            <remote-alias>Number of Cars</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pie_chart_data.csv_342B5C50F11E4294AF39E7AD14965323]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Engine Fuel Type]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='pie_chart_data.csv' datatype='table' name='[__tableau_internal_object_id__].[pie_chart_data.csv_342B5C50F11E4294AF39E7AD14965323]' role='measure' type='quantitative' />
+      <column-instance column='[Engine Fuel Type]' derivation='None' name='[none:Engine Fuel Type:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Engine Fuel Type:nk]' palette='color_blind_10_0' type='palette'>
+            <map to='#1170aa'>
+              <bucket>&quot;Diesel&quot;</bucket>
+            </map>
+            <map to='#57606c'>
+              <bucket>&quot;Petrol&quot;</bucket>
+            </map>
+            <map to='#a3acb9'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#fc7d0b'>
+              <bucket>&quot;Gas&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Russia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='pie_chart_data.csv' id='pie_chart_data.csv_342B5C50F11E4294AF39E7AD14965323'>
+            <properties context=''>
+              <relation connection='textscan.0j8ctsn0tfpn7115oz32v11hmzkr' name='pie_chart_data.csv' table='[pie_chart_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ru_RU' separator=','>
+                  <column datatype='string' name='Engine Fuel Type' ordinal='0' />
+                  <column datatype='integer' name='Number of Cars' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Cars by Engine Fuel Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pie_chart_data (2)' name='federated.0oppuas11wn52b158bpj71jhumkx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0oppuas11wn52b158bpj71jhumkx'>
+            <column datatype='string' name='[Engine Fuel Type]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Cars]' role='measure' type='quantitative' />
+            <column-instance column='[Engine Fuel Type]' derivation='None' name='[none:Engine Fuel Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Cars]' derivation='Sum' name='[pcto:sum:Number of Cars:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Number of Cars]' derivation='Sum' name='[sum:Number of Cars:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='cell-w' value='752' />
+            <format attr='cell-h' value='752' />
+            <format attr='cell' value='94' />
+            <format attr='cell-q' value='470' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0oppuas11wn52b158bpj71jhumkx].[none:Engine Fuel Type:nk]' />
+              <wedge-size column='[federated.0oppuas11wn52b158bpj71jhumkx].[sum:Number of Cars:qk]' />
+              <size column='[federated.0oppuas11wn52b158bpj71jhumkx].[sum:Number of Cars:qk]' />
+              <text column='[federated.0oppuas11wn52b158bpj71jhumkx].[pcto:sum:Number of Cars:qk]' />
+              <text column='[federated.0oppuas11wn52b158bpj71jhumkx].[none:Engine Fuel Type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{68BB61E3-B187-411A-BDA3-2A7E16267F6C}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='250'>
+            <card pane-specification-id='0' param='[federated.0oppuas11wn52b158bpj71jhumkx].[none:Engine Fuel Type:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0oppuas11wn52b158bpj71jhumkx].[sum:Number of Cars:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0oppuas11wn52b158bpj71jhumkx].[:Measure Names]</field>
+            <field>[federated.0oppuas11wn52b158bpj71jhumkx].[none:Engine Fuel Type:nk]</field>
+          </color-one-way>
+        </highlight>
+        <floating-toolbar-visibility value='1' />
+      </viewpoint>
+      <simple-id uuid='{A1939421-A284-4756-A12A-3FF0CE489942}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
